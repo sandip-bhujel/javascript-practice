@@ -46,10 +46,18 @@ console.log(`you got discount ${discount}% discount`);
 //-------------------------------------
 
 //user name login using if else//
-let username = "admin baba";
-let password = "2345";
-if (username === "admin baba" && password === "2345") {
-  console.log("log in successful");
-} else {
-  console.log("invalid your user or password");
+// let username = "admin baba";
+// let password = "2345";
+// if (username === "admin baba" && password === "2345") {
+//   console.log("log in successful");
+// } else {
+//   console.log("invalid your user or password");
+// }
+
+// log in checker card//
+
+
+//css//
+.card{
+    width: 250
 }
