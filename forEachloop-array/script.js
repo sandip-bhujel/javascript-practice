@@ -28,7 +28,7 @@ sports.forEach((val, index) => {
 
 //for each using only in string not array
 
-//practice//
+//practice using the for each loop print plus number //
 let numbers = [1, 2, 3, 4, 5];
 numbers.forEach((num) => {
   console.log(num + num);
