@@ -1,0 +1,13 @@
+h1 {
+  color: gray;
+  font-size: 20px;
+  background-color: rgb(189, 161, 214);
+}
+
+body {
+  background-color: lime;
+}
+button {
+  background-color: rgb(42, 200, 211);
+  color: white;
+}
