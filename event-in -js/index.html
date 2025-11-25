@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event in js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- html tag inside doing handling is a called inline event handling  -->
+
+    <h2>hello event bro in js</h2>
+    <!-- onetime click then changes -->
+
+    <button id="btn1">btn1</button>
+
+    <button id="btn1" onclick="console.log('my button');">btn1</button>
+
+    <button onclick="console.log('Button was clicked');alert('hello event !')">
+      click me
+    </button>
+    <!-- double click then chenges -->
+    <button
+      ondblclick="console.log('Button was clicked');alert('hello event !')"
+    >
+      click me again
+    </button>
+    <!-- mouse hover time changes  -->
+    <div onmouseover="console.log('You are inside a div');">this is a div</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
